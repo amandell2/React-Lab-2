@@ -14,11 +14,15 @@ function PostInList({post, onDelete}: Props){
     
     return(
         <div className="PostInList__Container">
+                <div className="PostInList__sideBySide">
+                <div>
                 <h1 className="PostInList--title">{post.title}</h1>
                 <p className="PostInList--thought">{post.thought}</p>
-                <button className = "PostInList--trash" onClick={onDelete}>
-                    <i className="fa-solid fa-trash"></i>
-                </button>
+                </div>
+                    <button className = "PostInList--trash" onClick={onDelete}>
+                        <i className="fa-solid fa-trash fa-2x"></i>
+                    </button>
+                </div>
                 
         </div>
     )

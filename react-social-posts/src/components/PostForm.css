@@ -3,13 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:0;
-    margin:0;
-    top:0;
-    left:0;
+    padding: 0;
+    margin: 0;
+    top: -167px;
+    left: 0;
     width: 100%;
-    height: 100%;
-    background:rgba(144,144,144,0.5);
+    height: 186%;
+    background: rgba(30,30,30,0.5);
 }
 
 form{
@@ -19,6 +19,7 @@ form{
     flex-direction: column;
     background-color: #79c5e8;
     padding: 20px;
+    font-weight: bolder;
 }
 
 #PostForm__thoughts{

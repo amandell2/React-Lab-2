@@ -1,3 +1,13 @@
 .PostInList--title{
     font-size: 24px;
 }
+
+.PostInList__sideBySide{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PostInList--trash{
+    border: none;
+    background-color: #f3f1f7;
+}

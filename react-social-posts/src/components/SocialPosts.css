@@ -1,6 +1,19 @@
+.SocialPosts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
 header{
     font-family: 'Homemade Apple', cursive;
     color: #03a9f4;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .SocialPosts_ThoughtBtn{
@@ -8,4 +21,18 @@ header{
     background-color: #03a9f4;
     color: white;
     font-weight: bolder;
+    font-size: 20px;
+    width: 525px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.SocialPosts_PostList{
+    border-style: solid;
+    width: 475px;
+    padding: 20px;
 }
