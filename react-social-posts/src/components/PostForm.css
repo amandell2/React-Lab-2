@@ -1,14 +1,17 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+
 .PostForm__Container{
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    margin: 0;
-    top: -167px;
-    left: 0;
-    width: 100%;
-    height: 186%;
+    top: -43vh;
+    right: 0px;
+    bottom: -37vh;
+    left: 0px;
     background: rgba(30,30,30,0.5);
 }
 
