@@ -17,7 +17,6 @@ function PostForm({onSubmit, onClose}: Props){
     function handleSubmit(e: FormEvent){
         e.preventDefault();
         console.log("submitted")
-        //WHAT DO I DO HERE??
         onSubmit({title:titleForm, thought:thoughtForm});
     }
 

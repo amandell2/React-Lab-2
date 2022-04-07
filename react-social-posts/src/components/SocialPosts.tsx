@@ -28,7 +28,7 @@ function SocialPosts(){
             </section>
             <main className = "SocialPosts_PostList">
                 {/*Array of Posts that are dsiplayed*/}
-                {posts.map((post, i)=> <PostInList post={post} onDelete={()=> handleDelete(i)}/>)}
+                {posts.map((post, i)=> <PostInList key={post.title} post={post} onDelete={()=> handleDelete(i)}/>)}
                 
             </main>
             <div>
